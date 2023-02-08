@@ -2,11 +2,11 @@
   margin-top: 40px;
   margin-bottom: 20px;
 }
-/* .input{
-  padding: 7px 10px;
-} */
-.block{
-  margin: 15px;
+.input{
+  padding: 7px 26px;
+}
+.Category{
+  margin-bottom: 30px;
   
 }
 .buttons{
@@ -16,7 +16,12 @@
   padding: 5px 10px;
   border-radius: 5px;
 }
-.image{
-  margin:50px;
-  transition:0.3em;
+.active, .buttons:hover{
+  background-color: hsl(239, 73%, 71%);
+  color:#fff
+}
+
+img:hover{
+  transform: scale(1.1);
+  z-index: 1;
 }
